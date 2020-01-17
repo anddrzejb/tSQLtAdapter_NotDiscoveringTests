@@ -1,0 +1,8 @@
+﻿CREATE FUNCTION CalculateTaxAmount(@amt MONEY)
+RETURNS MONEY
+AS BEGIN
+RETURN (@amt /100)*18 
+END;
+
+ 
+
